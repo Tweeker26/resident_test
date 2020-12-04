@@ -41,6 +41,6 @@ export const changeDurationValue = (value, title) => ({
 });
 
 export const changeDurationUnits = (value, title) => ({
-  type: TYPES.CHANGE_DURATION_VALUE,
+  type: TYPES.CHANGE_DURATION_UNITS,
   payload: { value, title },
 });
