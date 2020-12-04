@@ -45,6 +45,6 @@ We have 2 views: one to FormView, another to JsonView. They are connected togeth
 
 We have common components for re-usability.
 
-Example.json for initial state for projects.
+Directory store in Main component.
 
 Hook useContext was used with useReducer, because we have some store to update.
