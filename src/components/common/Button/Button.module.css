@@ -1,0 +1,32 @@
+.button {
+  cursor: pointer;
+  padding: 0.2em 3em;
+  font-size: 1em;
+  width: fit-content;
+}
+
+.button.default {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.button.default:hover,
+.button.default:focus,
+.button.default:active {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.button.transparent {
+  font-size: 0.7em;
+  background-color: #fff;
+  color: #9345ff;
+  border: 1px solid currentColor;
+}
+
+.button.transparent:hover,
+.button.transparent:focus,
+.button.transparent:active {
+  background-color: #9345ff;
+  color: #fff;
+}

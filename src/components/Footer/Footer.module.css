@@ -1,0 +1,12 @@
+.footer {
+  padding: 1em;
+  background-color: #fff;
+  border-top: 2px solid #000;
+}
+
+.wrapperBtn {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
